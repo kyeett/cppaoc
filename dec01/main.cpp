@@ -32,7 +32,7 @@ int main(int argc, char **argv)
 {
     typedef std::istream_iterator<int> iter_t;
     std::ifstream file("input.txt");
-    const std::vector<int> vec((iter_t(file)), iter_t());
+    std::vector<int> const vec((iter_t(file)), iter_t());
     std::cout << "Part 1 result is " << part_one(vec) << "\n";
     std::cout << "Part 2 result is " << part_two(vec) << "\n";
 }

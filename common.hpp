@@ -6,3 +6,5 @@
 #include <iterator>
 #include <iostream>
 #include <set>
+#include <array>
+#include <algorithm>
